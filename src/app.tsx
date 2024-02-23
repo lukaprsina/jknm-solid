@@ -14,6 +14,7 @@ const Editor = lazy(() => import("./routes/editor"));
 export default function App() {
   return (
     <Router
+      preload={true}
       root={(props) => (
         <Providers>
           <Title>Jamarski klub Novo mesto</Title>
