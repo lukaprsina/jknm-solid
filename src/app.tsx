@@ -7,6 +7,7 @@ import "@park-ui/tailwind-plugin/preset.css";
 import Providers from "./Providers";
 import Index from "./routes/index";
 import About from "./routes/about";
+import Account from "./routes/account";
 import NotFound from "./routes/404";
 
 const Editor = lazy(() => import("./routes/editor"));
@@ -25,6 +26,7 @@ export default function App() {
       <Route path="/" component={Index} />
       <Route path="/about" component={About} />
       <Route path="/editor" component={Editor} />
+      <Route path="/account" component={Account} />
       <Route path="*404" component={NotFound} />
     </Router>
   );

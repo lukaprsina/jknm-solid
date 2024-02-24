@@ -16,5 +16,20 @@
       "~/*": ["./src/*"]
     }
   },
-  "include": ["src", "styled-system"]
+  "include": [
+    ".eslintrc.cjs",
+    "next-env.d.ts",
+    "src/env.js",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.js",
+    ".next/types/**/*.ts",
+    "styled-system",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "vendor"
+  ]
 }

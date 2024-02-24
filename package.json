@@ -8,10 +8,15 @@
   },
   "dependencies": {
     "@ark-ui/solid": "^2.1.1",
+    "@auth/core": "^0.27.0",
+    "@auth/prisma-adapter": "^1.4.0",
     "@park-ui/tailwind-plugin": "^0.19.1",
+    "@solid-mediakit/auth": "^1.0.3",
     "@solidjs/meta": "^0.29.2",
     "@solidjs/router": "^0.12.4",
     "@solidjs/start": "^0.5.10",
+    "next-auth": "^4.24.6",
+    "prisma": "^5.10.2",
     "solid-js": "^1.8.15",
     "tailwind-variants": "^0.2.0",
     "vinxi": "^0.2.1"
